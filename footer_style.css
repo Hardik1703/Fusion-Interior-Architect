@@ -1,0 +1,134 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* footer start */
+footer {
+    background-color: #f5a030 !important;
+    display: flex !important;
+}
+
+.menu h5 {
+    color: #000 !important;
+    font-family: inherit !important;
+    line-height: 60px;
+}
+
+.menu a {
+    line-height: 42px;
+    text-decoration: none;
+    transition: 1s;
+    font-size: 14px;
+    color: #000 !important;
+}
+
+.menu a:hover {
+    color: #000 !important;
+    transition: 1s;
+}
+
+/* footer contact info */
+.contect h5 {
+    color: #000 !important;
+    font-family: inherit !important;
+    line-height: 60px;
+}
+
+.contect a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 24px;
+    position: relative;
+    padding-left: 35px;
+    display: block;
+    color: #000 !important;
+}
+
+.contect li {
+    margin-bottom: 23px !important;
+}
+
+.contect img {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    bottom: 0;
+}
+
+.filter img {
+    filter: invert(100%);
+}
+
+/* social media start */
+.section{
+    justify-content: center;
+}
+
+.section a{
+    border: none !important;
+}
+.facebook img {
+    content: "";
+    display: flex;
+    border-radius: 50%;
+    transition: 0.5s ease;
+    justify-content: center;
+}
+
+.facebook img:hover {
+    background-color: #4267B2 !important;
+    transition: 0.5s ease;
+}
+
+.instagram img {
+    content: "";
+    border-radius: 30%;
+    transition: 0.5s ease;
+}
+
+
+.instagram img:hover {
+    background-color: #bc2a8d !important;
+    transition: 0.5s ease;
+}
+
+.linkedin img {
+    content: "";
+    border-radius: 30%;
+    transition: 0.5s ease;
+}
+
+.linkedin img:hover {
+    background-color: rgba(49, 49, 221, 0.766) !important;
+    transition: 0.5s ease;
+}
+
+span {
+    overflow: hidden;
+    display: inline;
+    position: relative;
+}
+
+span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 100%;
+    border-radius: 50%;
+    bottom: -5px;
+    background: #000;
+    height: 3px;
+    transition-duration: 0.8s;
+    transition-timing-function: ease-out;
+
+}
+
+span:hover::after {
+    right: 0;
+}
+
+@media(max-width:500px) {
+    .address p {
+        font-size: 14px;
+    }
+}
